@@ -2,7 +2,7 @@
 
 This ROS 2 package provides the `aruco_detector` node, which detects ArUco markers in a camera video stream using OpenCV. It estimates the 3D pose and ID of each marker, publishes TF2 transforms, and outputs an annotated image stream.
 
-A complete launch file is included to start the entire pipeline - from the camera driver to the 3D visualization in RViz2—with a single command.
+A complete launch file is included to start the entire pipeline.
 
 ## Requirements
 
