@@ -50,7 +50,7 @@ ros2 run camera_calibration cameracalibrator --pattern charuco --size <cols>x<ro
 3. Build the package using `colcon`:
 
 ```bash
-cd ~/colcon_ws
+cd ~/ros2_ws
 colcon build --packages-select aruco_detector
 source install/setup.bash
 ```
